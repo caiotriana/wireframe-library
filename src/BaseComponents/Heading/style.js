@@ -18,7 +18,7 @@ const Header = ({level, ...otherProps}) =>  {
 }
 
 
-const Heading = styled(Header)`
+const HeadingStl = styled(Header)`
   //reset
   ${margin}
 
@@ -28,5 +28,5 @@ const Heading = styled(Header)`
 `
 
 export { 
-  Heading
+  HeadingStl
 }

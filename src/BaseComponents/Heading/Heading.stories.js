@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Button } from './Heading';
+import { Heading } from './Heading';
 
 export default {
   title: 'Example/Heading',
-  component: Button,
+  component: Heading,
   argTypes: {
     size: {
       description: 'Tamanho do heading',
@@ -20,7 +20,7 @@ export default {
   }
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <Heading {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
