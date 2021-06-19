@@ -10,7 +10,7 @@ const SubtitleStl = styled.p`
   ${margin}
 
   font-family: ${theme.fontFamily.base};
-  font-size: 20px;
+  font-size: 24px;
 
   ${props => props.inverse ? css `
     color : ${theme.color.secondary};
