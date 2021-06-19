@@ -2,7 +2,10 @@
 
 > A React components library with theme inspiration in wireframes
 
-[![NPM](https://img.shields.io/npm/v/wireframe-library.svg)](https://www.npmjs.com/package/wireframe-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+> Com inspiração no arquivo do figma [Wireframing](https://www.figma.com/file/GBCGqs11KNeUyPksQzEMw0hr/Wireframing/duplicate), (achado em wireframe templates free
+
+## Example
+![Backup mysql google driver](assets/gif_doc.gif)
 
 ## Install
 
