@@ -3,11 +3,12 @@ import { SubtitleStl } from './style'
 import PropTypes from 'prop-types';
 
 
-export function Subtitle({children, inverse}) {
+export function Subtitle({children, inverse, size}) {
 
   return (
     <SubtitleStl 
       inverse={inverse}
+      size={size}
     >
       {children}
     </SubtitleStl>
@@ -17,9 +18,11 @@ export function Subtitle({children, inverse}) {
 Subtitle.propTypes = {
   inverse: PropTypes.bool,
   children: PropTypes.string.isRequired,
+  size: PropTypes.string,
 };
 
 Subtitle.defaultProps = {
   inverse: false,
   children: 'Primary button',
+  size: 'md',
 };
