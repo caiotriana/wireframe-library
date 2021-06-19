@@ -1,7 +1,16 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-const theme = {
+function _taggedTemplateLiteralLoose(strings, raw) {
+  if (!raw) {
+    raw = strings.slice(0);
+  }
+
+  strings.raw = raw;
+  return strings;
+}
+
+var theme = {
   color: {
     primary: '#000',
     secondary: '#fff',
@@ -19,43 +28,25 @@ const theme = {
   }
 };
 
-let _ = t => t,
-    _t;
-const transition = css(_t || (_t = _`
-  transition: 400ms ease;
-`));
+var _templateObject;
+var transition = css(_templateObject || (_templateObject = _taggedTemplateLiteralLoose(["\n  transition: 400ms ease;\n"])));
 
-let _$1 = t => t,
-    _t$1,
-    _t2;
-const ButtonStl = styled.button(_t$1 || (_t$1 = _$1`
-  border-radius: ${0};
-  padding: 16px 24px;
-  display: inline-flex;
-  font-family: ${0};
-  
-  //colors
-  color : ${0};
-  background-color: ${0};
-  border : 1px solid ${0};
-  
-  cursor: pointer;
-
-  ${0}
-
-  &:hover { 
-    ${0}
-  }
-
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-`), theme.borderRadius.sm, theme.fontFamily.base, props => props.secondary ? theme.color.primary : theme.color.secondary, props => props.secondary ? theme.color.secondary : theme.color.primary, props => props.secondary ? theme.color.primary : theme.color.secondary, transition, props => props.disabled ? '' : css(_t2 || (_t2 = _$1`
-      color : ${0};
-      background-color: ${0};
-      border : 1px solid ${0};
-    `), props => props.secondary ? theme.color.secondary : theme.color.primary, props => props.secondary ? theme.color.primary : theme.color.secondary, props => props.secondary ? theme.color.secondary : theme.color.primary));
+var _templateObject$1, _templateObject2;
+var ButtonStl = styled.button(_templateObject$1 || (_templateObject$1 = _taggedTemplateLiteralLoose(["\n  border-radius: ", ";\n  padding: 16px 24px;\n  display: inline-flex;\n  font-family: ", ";\n  \n  //colors\n  color : ", ";\n  background-color: ", ";\n  border : 1px solid ", ";\n  \n  cursor: pointer;\n\n  ", "\n\n  &:hover { \n    ", "\n  }\n\n  &:disabled {\n    opacity: 0.5;\n    cursor: not-allowed;\n  }\n"])), theme.borderRadius.sm, theme.fontFamily.base, function (props) {
+  return props.secondary ? theme.color.primary : theme.color.secondary;
+}, function (props) {
+  return props.secondary ? theme.color.secondary : theme.color.primary;
+}, function (props) {
+  return props.secondary ? theme.color.primary : theme.color.secondary;
+}, transition, function (props) {
+  return props.disabled ? '' : css(_templateObject2 || (_templateObject2 = _taggedTemplateLiteralLoose(["\n      color : ", ";\n      background-color: ", ";\n      border : 1px solid ", ";\n    "])), function (props) {
+    return props.secondary ? theme.color.secondary : theme.color.primary;
+  }, function (props) {
+    return props.secondary ? theme.color.primary : theme.color.secondary;
+  }, function (props) {
+    return props.secondary ? theme.color.secondary : theme.color.primary;
+  });
+});
 
 function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -1134,13 +1125,12 @@ if (process.env.NODE_ENV !== 'production') {
 }
 });
 
-function Button({
-  children,
-  primary,
-  secondary,
-  disabled,
-  onClick
-}) {
+function Button(_ref) {
+  var children = _ref.children,
+      primary = _ref.primary,
+      secondary = _ref.secondary,
+      disabled = _ref.disabled,
+      onClick = _ref.onClick;
   return /*#__PURE__*/React.createElement(ButtonStl, {
     type: "button",
     primary: primary,
