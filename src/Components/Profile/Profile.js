@@ -34,6 +34,7 @@ export function Profile({inverse, name, role}) {
 Profile.propTypes = {
   inverse: PropTypes.bool,
   name: PropTypes.string.isRequired,
+  role: PropTypes.string,
 };
 
 Profile.defaultProps = {
