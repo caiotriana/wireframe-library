@@ -10,5 +10,4 @@ export default {
 const Template = (args) => <CardBlog {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-};
+Default.args = {};

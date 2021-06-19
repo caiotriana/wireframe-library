@@ -26,5 +26,5 @@ Link.propTypes = {
 
 Link.defaultProps = {
   inverse: false,
-  children: 'Primary button',
+  children: 'Link see more',
 };

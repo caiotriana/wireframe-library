@@ -3,11 +3,10 @@ import React from 'react';
 import { Heading } from './Heading';
 
 export default {
-  title: 'Example/Heading',
+  title: 'BaseComponents/Heading',
   component: Heading,
   argTypes: {
     size: {
-      description: 'Tamanho do heading',
       table: {
         type: { summary: 'string | "xLg" | "lg" | "md" | "sm"' },
         defaultValue: { summary: '"lg"' }
@@ -24,6 +23,5 @@ const Template = (args) => <Heading {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  size : 'sm',
-  children: 'Heading',
+  size : 'sm'
 };

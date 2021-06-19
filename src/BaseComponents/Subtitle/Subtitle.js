@@ -23,6 +23,6 @@ Subtitle.propTypes = {
 
 Subtitle.defaultProps = {
   inverse: false,
-  children: 'Primary button',
+  children: 'Subtitle lorem impsum dolor sit amet',
   size: 'md',
 };

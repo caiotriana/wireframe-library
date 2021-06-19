@@ -9,8 +9,5 @@ export default {
 
 const Template = (args) => <Testimonial {...args} />;
 
-export const name = Template.bind({});
-name.args = {};
-
-export const role = Template.bind({});
-role.args = {};
+export const Default = Template.bind({});
+Default.args = {};

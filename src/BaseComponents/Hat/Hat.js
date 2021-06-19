@@ -21,5 +21,5 @@ Hat.propTypes = {
 
 Hat.defaultProps = {
   inverse: false,
-  children: 'Primary button',
+  children: 'Author name',
 };

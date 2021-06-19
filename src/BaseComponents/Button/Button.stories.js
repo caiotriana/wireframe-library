@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from './Button';
 
 export default {
-  title: 'Example/Button',
+  title: 'BaseComponents/Button',
   component: Button
 };
 
@@ -11,6 +11,5 @@ const Template = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  secondary : false,
-  children: 'Button default',
+  secondary : false
 };

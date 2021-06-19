@@ -10,10 +10,7 @@ export default {
 const Template = (args) => <Profile {...args} />;
 
 export const name = Template.bind({});
-name.args = {
-  inverse : false,
-  name : 'Jhon Doe'
-};
+name.args = {};
 
 export const role = Template.bind({});
 role.args = {

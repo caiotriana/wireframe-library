@@ -21,5 +21,5 @@ Paragraph.propTypes = {
 
 Paragraph.defaultProps = {
   inverse: false,
-  children: 'Primary button',
+  children: 'Paragraph lorem impsum dolor sit amet',
 };
