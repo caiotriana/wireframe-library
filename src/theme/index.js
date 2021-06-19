@@ -13,6 +13,14 @@ const theme = {
   fontFamily : {
     base : 'Roboto',
     contents : 'Roboto'
+  },
+  fontWeight : {
+    black : '900',
+    bold : '700',
+    medium : '500',
+    regular : '400',
+    light : '300',
+
   }
 }
 
