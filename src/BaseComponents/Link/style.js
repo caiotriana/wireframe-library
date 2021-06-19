@@ -19,6 +19,7 @@ const LinkStl = styled.a`
   display: inline-flex;
   align-items: center;
 
+  text-decoration: none;
   cursor: pointer;
 
   ${props => props.inverse ? css `
