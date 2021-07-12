@@ -8,7 +8,7 @@ export function Button({children, primary, secondary, disabled, onClick}) {
   return (
     <ButtonStl 
       type="button"
-      primary={primary}
+      primary={secondary ? false : true}
       secondary={secondary}
       disabled={disabled}
       onClick={onClick}
@@ -19,7 +19,6 @@ export function Button({children, primary, secondary, disabled, onClick}) {
 }
 
 Button.propTypes = {
-  primary: PropTypes.bool,
   secondary: PropTypes.bool,
   children: PropTypes.string.isRequired,
   onClick: PropTypes.func,
@@ -28,7 +27,6 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  primary: true,
   secondary: false,
   children: 'Primary button',
   onClick: undefined,
