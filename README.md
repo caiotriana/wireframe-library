@@ -2,7 +2,7 @@
 
 > A React components library with theme inspiration in wireframes
 
-> Com inspiração no arquivo do figma [Wireframing](https://www.figma.com/file/GBCGqs11KNeUyPksQzEMw0hr/Wireframing/duplicate), (achado em wireframe templates free
+> Inspired by figma file [Wireframing](https://www.figma.com/file/GBCGqs11KNeUyPksQzEMw0hr/Wireframing/duplicate), (found in wireframe templates free)
 
 ## Example
 ![Backup mysql google driver](assets/gif_doc.gif)
